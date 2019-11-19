@@ -10,11 +10,47 @@ import UIKit
 
 class ViewController: UIViewController {
 
+   
+    
+    @IBOutlet weak var img: UIImageView!
+    
+    
+    @IBOutlet weak var question: UITextView!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        
+
+    
+    
+    
     }
 
 
+    
+    @IBAction func next(_ sender: UIButton) {
+    
+    
+let path = Bundle.main.path(forResource: "questionList", ofType: "plist")
+    
+        let dict = NSDictionary(contentsOfFile: path!)
+        
+        let data = dict?.object(forKey: "questions") as! [[String]]
+        let try1 =  data.randomElement()
+        print(try1![1])
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
 }
 

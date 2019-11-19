@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>questions</key>
+	<array>
+		<array>
+			<string>who is above person</string>
+			<string>bran lara</string>
+			<string>stever job</string>
+			<string>image2</string>
+		</array>
+		<array>
+			<string>what is the name</string>
+			<string>chem lo </string>
+			<string>satya</string>
+			<string>image1</string>
+		</array>
+	</array>
+</dict>
+</plist>
