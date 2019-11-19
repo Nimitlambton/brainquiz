@@ -70,6 +70,10 @@
                     </view>
                     <connections>
                         <outlet property="img" destination="Lfx-ZN-rhm" id="KAm-oc-UNA"/>
+                        <outlet property="option1" destination="uOD-a9-WBK" id="l0F-Ba-CIY"/>
+                        <outlet property="option2" destination="HXR-UE-CVa" id="IkV-4E-0LG"/>
+                        <outlet property="option3" destination="Fnf-nP-ckE" id="Pg7-Cz-ce7"/>
+                        <outlet property="option4" destination="r8z-oQ-EH7" id="mmr-aQ-EwB"/>
                         <outlet property="question" destination="0IQ-3U-STi" id="nch-Qs-hCJ"/>
                     </connections>
                 </viewController>
